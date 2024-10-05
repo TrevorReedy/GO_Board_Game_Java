@@ -22,7 +22,6 @@ public class Input extends MouseAdapter {
     public void mousePressed(MouseEvent e) {
         int x = e.getX();
         int y = e.getY();
-        System.out.println("Mouse pressed at: (" + x + ", " + y + ")");
 
         // Calculate the closest intersection
         int col = Math.round(x / (float) board.tile_size);
@@ -47,12 +46,10 @@ public class Input extends MouseAdapter {
                 board.tileStates[col][row] = true;
                 
                 
-
                 
-                pieces pieces;
                 
-                board.repaint(); // Request to repaint the panel to show the change
-                System.out.println("Tile at (" + col + ", " + row + ") set to true.");
+                board.repaint(); 
+                System.out.println(board.isBlackTurn ? "Black Stone placed at (" + col + ", " + row:"White Stone placed at (" + col + ", " + row);
                 move move = new move(board, col, row);
                 board.makeMove(move);
                 board.incrementClicks();
