@@ -32,7 +32,7 @@ javac src/main/*.java src/piece/*.java
 
 **4. Run the game**
 ```bash
-java -cp src/main Board
+java -cp src main.Main
 ```
 
 Gameplay Instructions
@@ -55,15 +55,9 @@ Gameplay Instructions
 │   │   │   └── pieces.java      # Represents individual pieces on the board
 │   │   └── move.java            # Handles move logic and properties
 │   │
-├── assets/
-│   └── images/                  # (Optional) Any images or sprites used for UI
 │
 ├── docs/
 │   └── README.md                # Documentation and instructions for the game
-│
-├── lib/                         # Any external libraries (if needed)
-│
-├── build/                       # Compiled classes and build files
 
 </code></pre>
 
