@@ -23,11 +23,11 @@ git clone https://github.com/TrevorReedy/GO_Game_Java.git
 ```
 **2.Navigate to file directory**
 ```bash
-cd GO-game
+cd GO_Board_Game_Java
 ```
 **3. Compile the java files**
 ```bash
-javac src/main/*.java src/main/pieces/*.java
+javac src/main/*.java src/piece/*.java
 ```
 
 **4. Run the game**
