@@ -19,7 +19,7 @@ A classic implementation of the board game GO, written in Java with Swing for a 
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/GO-Game.git
+git clone https://github.com/TrevorReedy/GO-Game.git
 ```
 **2.Navigate to file directory**
 ```bash
